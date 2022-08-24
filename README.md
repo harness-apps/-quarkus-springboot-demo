@@ -1,6 +1,6 @@
 # Java CI with Drone
 
-The demo application that can be used to demonstrate on how to do CI with Java Applications with Drone CI. This project plays well with used with [Java GitOps Demo with Argo CD](https://github.com/kameshsampath/quarkus-springboot-demo-gitops).
+The demo application that can be used to demonstrate on how to do CI with Java Applications with Drone CI. This project plays well with used with [Java GitOps Demo with Argo CD](https://github.com/harness-apps/quarkus-springboot-demo-gitops).
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ The demo application that can be used to demonstrate on how to do CI with Java A
 
 ## Setup DAG Stack
 
-You need a environment that can help you do CI and GitOps. You can setup one locally as described here <https://github.com/kameshsampath/dag-stack.git>.
+You need a environment that can help you do CI and GitOps. You can setup one locally as described here <https://github.com/harness-apps/dag-stack.git>.
 
 ## Drone Configuration
 
@@ -55,7 +55,7 @@ __IMPORTANT__: Activate the `quarkus-springboot-demo` project on Drone.
 
 ## Testing with Kubernetes
 
-To test the application with Kubernetes use the <https://github.com/kameshsampath/dag-stack>, that will rely use GitOps Principles to deploy the application
+To test the application with Kubernetes use the <https://github.com/harness-apps/dag-stack>, that will rely use GitOps Principles to deploy the application
 
 ## Testing the application Locally
 
